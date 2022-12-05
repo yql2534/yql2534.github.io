@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+        <meta charset="UTF-8">
+        <title>资料群</title>
+        <script>
+            function test() {
+                document.getElementById('btn').style.display = "block";
+            }
+            function testt() {
+                document.getElementById('btn').style.display = "none";
+            }
+            function testt() {
+                alert("加入群聊后可查看")
+            }
+            function guanbi() {
+                document.getElementById('btn').style.display = "none";
+            }
+
+
+
+
+    </script>
+
+
+
+
+
+
+    <style>
+
+        .jie {
+            width: 100%;
+            /*定义宽度*/
+            height: 33%;
+            position: absolute;
+            left: 2%;
+            top: 980px;
+            font-weight:bold;
+          }
+        * {
+            margin: 0;
+            padding: 0;
+            /*此处是清除页面所有标签的内外边距*号是表示全部的意思*/
+            
+        }
+       
+        .cett:active {
+            
+         background-color: rgb(109, 197, 248);
+          
+           
+        }
+        .cett {
+            /*此处为元素的名称，如选择单个标签 可定义class类名区分定义前为.定义 html调用即可*/
+            color: rgb(255, 255, 255);
+            /*修改文本颜色*/
+            font-size: 300%;
+            /*修改文本大小*/
+            background-color: rgb(0, 162, 255);
+            /*定义背景颜色*/
+            width: 96%;
+            /*定义宽度*/
+            height: 7%;
+            font-family: "微软雅黑";
+            /*定义文字字体可以定义多个前后表示匹配优先级别逗号隔开*/
+            border-style: none;
+            /*定义无边框*/
+            border-radius: 8px;
+            /*定义圆角半径*/
+            font-weight: 550;
+            /*text-align: center;定义设置居中*/
+            /*position: relative;定义相对*/
+            position: absolute;
+            left: 2%;
+            top: 1590px;
+            font-weight:bold;
+           
+        }
+        #tete {
+            position: absolute;
+            /*定义绝对*/
+        }
+        #btn {
+            width: 70%;
+            height: 45%;
+            background-color: rgb(255, 255, 255);
+            color: rgb(99, 99, 99);
+            position: absolute;
+            left: 16%;
+            top: 500px;
+            background-position :center;
+            ruby-align: right;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 150%;
+            box-shadow: 0 0 10px rgb(129, 127, 127);
+            display: none;
+        }
+        .chenggong {
+            color: rgb(65, 65, 65);
+            background-color: rgb(255, 255, 255);
+            font-size: 200%;
+            border-radius: 50px;
+            width: 50%;
+            /*定义宽度*/
+            height: 15%;
+            background: url(微信.jpg) left center no-repeat; 
+            background-size:100px 100px;
+            font-weight:600; 
+           }
+           .btt {
+            color: rgb(65, 65, 65);
+            background-color: rgb(255, 255, 255);
+            font-size: 200%;
+            border-radius: 50px;
+            width: 50%;
+            /*定义宽度*/
+            height: 15%;
+            background: url(支付宝.jpg) left center no-repeat; 
+            background-size: 100px 100px;
+            font-weight: 600; 
+        
+              
+           }
+           .qq {
+            color: rgb(65, 65, 65);
+            background-color: rgb(255, 255, 255);
+            font-size: 200%;
+            border-radius: 50px;
+            width: 50%;
+            /*定义宽度*/
+            height: 15%;
+            background: url(qq.jpg) left center no-repeat; 
+            background-size: 100px 100px;
+            font-weight: 600; 
+        
+              
+           }
+          
+
+
+
+
+
+
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+    
+    <img id="tete" src="qq页.jpg" onclick="testt()" width=100% />
+    
+
+    <button class="cett" type="button" onclick="test()" >支付9.9加入群聊</button>
+    <div class="te" id="btn">
+        <h1 onclick="guanbi()" >&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspX</h1>
+        <br>
+        <h1>请选择支付方式</h1>
+        <br>
+        <h2>9.9 ¥</h2>
+        <br>
+        <button class="chenggong" >&nbsp&nbsp&nbsp&nbsp&nbsp微信支付</button>
+        <br>
+        <br>
+        <button class="btt" >&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp支付宝</button>
+        <br>
+        <br>
+        <button class="qq" >&nbsp&nbsp&nbsp&nbsp&nbsp&nbspQQ钱包</button>
+        </div>
+ <div class="jie" onclick="tishi()"></div>
+
+
+
+    
+</body>
+
+
+
+
+
+</html>
+
+
+
